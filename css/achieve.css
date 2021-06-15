@@ -1,0 +1,128 @@
+/*------------------------------------------------
+	Base Styles
+-------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+  
+ :root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color:rgb(170, 215, 230);
+    --heading-color: #292922;
+    --secondary-heading-color:rgba(30, 37, 48, 0.07);
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+    --secondary-heading-color:rgba(158, 175, 204, 0.07);
+}
+ 
+ .pCard_trophy {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #ed145b;
+    -webkit-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    -ms-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    -o-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+    
+    margin: auto;
+    margin-bottom: -4%;
+    width: 88px;
+    height: 88px;
+    align-content: center;
+    cursor: pointer;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.pCard_trophy i {
+    color: white;
+  
+   margin: auto;
+   padding-left:25%;
+    font-size: 38px;
+    line-height: 88px;
+}
+
+.card-img-top{
+    max-width: 100%; max-height: 100%; object-fit: cover
+}
+
+.card-body{
+    padding: 3%;
+    background-color: white;
+}
+/* 
+div .jumbotron{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} */
+.event{
+  padding: 0;
+  margin-bottom: 3%;
+  color: white;
+}
+
+.display-4{
+  color:whitesmoke
+}
+
+.event:nth-child(even){
+ text-align: right;
+ padding-right: 2%;
+  background-color: #2a2a72;
+background-image: linear-gradient(315deg,  #2ca1a1 0%, #3e3e92 60%);
+}
+
+.event:nth-child(odd){
+  padding-left: 2%;
+  background-color: #36096d;
+background-image: linear-gradient(315deg, #53337a 0%, #2ca1a1 80%);
+}
+
+.text{
+  padding: 2%;
+  font-size: small;
+}
+
+/*------------------------------------------------
+	Responsive Media Queries
+-------------------------------------------------*/
+/*============================================================
+	Macbook pro 13 inch
+==============================================================*/
+/*============================================================
+	For Small Desktop / tablet landscape
+==============================================================*/
+@media (min-width: 980px) and (max-width: 1150px) {
+ 
+  
+}
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+@media only screen and (max-width: 767px) {
+  
+}
